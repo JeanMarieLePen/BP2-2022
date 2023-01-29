@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC147E63-FFE0-EA6F-3A08-DF7780B10030" name="cini">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Razvojni_Tim_TIM_SIF" id="A8A9F546-5010-9BF0-96CC-0A593A282B64">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14470CF2-CFDF-396F-E35E-BC198F189C88" referredColumn="8584BAB6-3AED-2C84-B33C-9003992C66DB"/>
+</associations>
+</Column>
+<Column name="PROJEKTANT_ZAP_SIF" id="DB0BF6C1-21EF-441C-6D35-E92C5EDCB391">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CB3FCED-26CA-B9E3-22C6-073F66D413AF" referredColumn="FBDA4B63-2BC5-549C-2D9D-989C4708E345"/>
+</associations>
+</Column>
+<Column name="PROJEKTANT_KOM_MBR" id="3A27B1F7-8CD6-6BCC-6F5D-46CE67BD7C5D">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CB3FCED-26CA-B9E3-22C6-073F66D413AF" referredColumn="9C141492-CCB0-0E5E-9C58-979032A00841"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96FAB03E-5FA3-B571-E937-22A9F379ECEA" name="cini_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8A9F546-5010-9BF0-96CC-0A593A282B64"/>
+<colUsage columnID="DB0BF6C1-21EF-441C-6D35-E92C5EDCB391"/>
+<colUsage columnID="3A27B1F7-8CD6-6BCC-6F5D-46CE67BD7C5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A29DE52-8006-AA3A-410C-915150342357" name="cini_Razvojni_Tim_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>8545EE06-DD5D-AF8A-2B2A-DAA140DCAA78</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8A9F546-5010-9BF0-96CC-0A593A282B64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDBE35A2-C2E8-D94A-97D0-73BCB3C566A1" name="cini_PROJEKTANT_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>8545EE06-DD5D-AF8A-2B2A-DAA140DCAA78</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB0BF6C1-21EF-441C-6D35-E92C5EDCB391"/>
+<colUsage columnID="3A27B1F7-8CD6-6BCC-6F5D-46CE67BD7C5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

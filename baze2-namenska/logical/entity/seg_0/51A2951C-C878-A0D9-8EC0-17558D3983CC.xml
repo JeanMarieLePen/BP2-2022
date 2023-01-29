@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51A2951C-C878-A0D9-8EC0-17558D3983CC" name="Pogon">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 01:18:16 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PGN_SIF" id="1C415C25-3956-C8C3-A653-B88A49A9B466">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 01:18:23 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PGN_NAZ" id="E2C791C3-5684-594C-7CDC-9C7A96E0D391">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 01:18:38 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PGN_ADR" id="5075434B-6474-5FF6-0EBE-1ADFA7C5B562">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 01:18:58 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PGN_PRV" id="C7110F53-71B3-2E5E-9936-ACFD5BB62279">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 01:19:13 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PGN_BRL" id="E1827452-3458-BF79-E1FB-6FEDC363010E">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 01:20:32 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOM_MBR" id="01FCC0BD-5CBF-D141-6251-ADDE0C476B50">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 01:21:42 UTC</createdTime>
+<generatorID>4C3222B5-3B45-8DA1-CDE8-6F851AF626D9</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<referedAttribute>6B04405C-63EA-DD59-7922-B76E8CA7964F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E2C155C-7EAB-003E-FE78-6C8DEAE73FB8" name="Pogon PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 01:18:36 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C415C25-3956-C8C3-A653-B88A49A9B466</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

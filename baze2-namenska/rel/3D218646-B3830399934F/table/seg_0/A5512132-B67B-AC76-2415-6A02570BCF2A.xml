@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5512132-B67B-AC76-2415-6A02570BCF2A" name="sklop">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Proizvod_PRZ_SIF" id="75583F52-F0D1-7454-DF56-85549B326CC5">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53EC2863-040C-5275-4B1F-81293F887D2F" referredColumn="8DA171DB-FB73-7EA2-F3E0-8211E2523768"/>
+</associations>
+</Column>
+<Column name="Proizvod_PRZ_SIF1" id="06E4093B-54B0-4029-D330-32F5AB2CA348">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F87E1A1-B525-4F74-4CBB-ADC0C903D587" referredColumn="8DA171DB-FB73-7EA2-F3E0-8211E2523768"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E300ED3-A85E-4462-9CAF-37B49900B862" name="sklop_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75583F52-F0D1-7454-DF56-85549B326CC5"/>
+<colUsage columnID="06E4093B-54B0-4029-D330-32F5AB2CA348"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A27D50A0-5DF8-BB4E-B688-AF71A64430FB" name="sklop_Proizvod_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>B645340F-8084-2E82-389C-98ADE972F9C3</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75583F52-F0D1-7454-DF56-85549B326CC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="860A3B82-6C74-FF58-35FB-2560A5BD18F3" name="sklop_Proizvod_FKv1">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>B645340F-8084-2E82-389C-98ADE972F9C3</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E4093B-54B0-4029-D330-32F5AB2CA348"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

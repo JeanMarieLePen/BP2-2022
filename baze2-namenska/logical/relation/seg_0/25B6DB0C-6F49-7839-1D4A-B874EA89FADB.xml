@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nadzor" directorySegmentName="seg_0" id="25B6DB0C-6F49-7839-1D4A-B874EA89FADB">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:17:02 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<targetPk>3EC0EEDD-F8A6-4837-F5F8-4AB4CDE29099</targetPk>
+<identifying>false</identifying>
+<nameOnSource>je nadziran</nameOnSource>
+<nameOnTarget>nadzire</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3ABD945F-1587-1997-D12B-368C45D52ACF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3ABD945F-1587-1997-D12B-368C45D52ACF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

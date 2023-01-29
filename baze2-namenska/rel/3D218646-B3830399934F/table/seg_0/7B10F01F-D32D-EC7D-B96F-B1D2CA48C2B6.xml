@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B10F01F-D32D-EC7D-B96F-B1D2CA48C2B6" name="Ugovor">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>F88C9683-18CC-2597-00C9-7C6336B32EA3</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UGV_SIF" id="972DBC1A-F050-4F9D-39DE-7868EC94FC67">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>23D89464-524B-0A3D-91DF-755A76145185</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UGV_DAT" id="9B66172D-679E-9110-7EFD-F45E1BB06335">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>871B4BF2-B9C0-57FB-B3E4-25CE9CA21D0B</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UGV_BRJ" id="BA2BC08E-E31E-E59A-9D8B-25E9CBD55D3E">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>97260EBD-B10E-8A33-5D19-25388BD164A9</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADM_RADNIK_ZAP_SIF" id="AC01E667-CD91-7368-DD5E-8D0223E3DE65">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>6D275B2F-E975-039A-DA26-A16132E26713</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE0E5B02-5203-F69D-9669-4D6A07A7A57A" referredColumn="9BF2408F-DD7E-779D-7D84-3B64BFC2F681"/>
+</associations>
+</Column>
+<Column name="ADM_RADNIK_KOM_MBR" id="0CD57254-348E-FAB9-2B9C-9F226B086CA5">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>E19A7A62-FA42-53CE-2541-0089F8EB00B9</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE0E5B02-5203-F69D-9669-4D6A07A7A57A" referredColumn="599F03AF-7C09-7C30-DC4A-AC468AEA5334"/>
+</associations>
+</Column>
+<Column name="UGV_STS" id="3B2A9E1E-2B4A-F4CA-6DA3-712EEBEC7C2D">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>4DEF0347-E1A4-610F-DAC7-AD1CB4C39EFD</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B1B92953-9C4F-7944-D726-211C4B28C1EE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Predstavnistvo_PRE_SIF" id="5C499B7E-BA2E-AADF-E450-C4ED4383410D">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>78F6D34F-A86F-D06B-D53B-F4EEBF18FB0F</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEB415EC-7B77-C94A-2B52-D479910837D7" referredColumn="A2876DC3-E2C9-E29B-7003-0BECFB0877B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="944BD345-7389-DE2A-43B9-5825F7C3240D" name="Ugovor_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>BE54BC0F-9419-5F20-A4CD-D5A60208208A</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="972DBC1A-F050-4F9D-39DE-7868EC94FC67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E986931-A095-4CBA-C9EF-02A7508069DE" name="Ugovor_Predstavnistvo_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>AEDE19A8-7E33-5D38-2AFE-BF22B6EDC431</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C499B7E-BA2E-AADF-E450-C4ED4383410D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BCFFA96-834B-E6E7-E186-58E9BB1B2CDE" name="Ugovor_ADM_RADNIK_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>2A8816B1-B8E2-DAE0-11B8-70AC5A28E44E</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC01E667-CD91-7368-DD5E-8D0223E3DE65"/>
+<colUsage columnID="0CD57254-348E-FAB9-2B9C-9F226B086CA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

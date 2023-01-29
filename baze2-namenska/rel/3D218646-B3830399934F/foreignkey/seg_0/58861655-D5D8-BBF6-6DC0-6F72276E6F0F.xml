@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58861655-D5D8-BBF6-6DC0-6F72276E6F0F" containerWithKeyObject="CD727DA7-FF17-7170-8D6F-22B557DBEF09" localFKIndex="33AB6506-2FB8-234E-F152-4F2178C1611A" name="narucuje_Izlaze_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>2573F84D-1266-E8D2-4E1E-359A5990B45F</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<referredTableLongName>Izlaze</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5D8DB01-D31D-6F4B-3988-D2B5E915C7BB</referredTableID>
+<keyObject>229711AF-2DED-8540-6239-10F7097FBA7F</keyObject>
+<referredKeyID>229711AF-2DED-8540-6239-10F7097FBA7F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Proizvod_PRZ_SIF,Predstavnistvo_PRE_SIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

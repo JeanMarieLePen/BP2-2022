@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F1381DF-E167-6C65-FC91-72863EA289CA" name="Kompanija">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 00:01:11 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOM_MBR" id="6B04405C-63EA-DD59-7922-B76E8CA7964F">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 00:03:28 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOM_PIB" id="715D7FD1-9E14-62F2-B362-A32EDE002857">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 00:04:42 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOM_NAZ" id="234D3F0A-36C1-A572-A0BC-CDEC4FBA3DE4">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 00:07:12 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOM_ADR" id="4898423E-3BFC-E35F-0FF8-F2B358A08759">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 00:08:22 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOM_BRZ" id="26F97D6C-D0A8-6821-CF48-1F925C6E8D9E">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 00:08:48 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D287CB1B-DDCC-F0C4-2174-83ECDB3DC974" name="Kompanija PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 00:04:03 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B04405C-63EA-DD59-7922-B76E8CA7964F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

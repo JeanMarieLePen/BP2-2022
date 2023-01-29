@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3419DFB8-E24F-E5C6-6C4B-1522B5CD7088" name="Stavka">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>B6E09677-99F1-70F5-1D1C-D6B9DE1EC8ED</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STV_SIF" id="031913F4-23A3-ECB3-520D-58DF5EE68690">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>BEBE1FB9-1532-24D0-C109-8940162289BC</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STV_KOL" id="6AF3C1AD-1EDE-554D-8AA3-689A0A405786">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>0D65F0F9-D899-558C-03D7-D92C87270979</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STV_OZN" id="83D01D35-8DC5-5A2E-897E-14BDED0508E8">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>2C74FA77-9F3B-394D-ED30-5B506C3F8A00</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STV_NAZ" id="034AC2D1-0A1E-34AB-C565-154956196E7C">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>094192A8-10A1-4DD3-F4D2-95B347E61522</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STV_CEN" id="0BDF1BEE-E738-4B28-7696-8615BC4C62EA">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>6BAB4887-49E2-3B24-C5FF-4319933D25F6</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ugovor_UGV_SIF" id="943F4EA3-624B-EF7A-89A0-1337FE894017">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>675B4791-4F04-F83D-C958-4D22E5292091</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E798CEC-59AB-4E0E-0E22-8258D533CA60" referredColumn="972DBC1A-F050-4F9D-39DE-7868EC94FC67"/>
+</associations>
+</Column>
+<Column name="Proizvod_PRZ_SIF" id="29C5C6BC-409D-4452-4271-87DD90EA61A8">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>7E3187B9-AAB7-98B1-FEC5-BEBA4E33C749</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90A1BC31-6C4E-9C84-B1B5-745431D38989" referredColumn="8DA171DB-FB73-7EA2-F3E0-8211E2523768"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E50C838-830F-2623-CCF9-26EB007374BA" name="Stavka_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>1A826DFE-EAF5-DF7D-ACA5-9C2DAB49038E</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="031913F4-23A3-ECB3-520D-58DF5EE68690"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A44188DD-FEFF-F29B-403E-840B8DCE446D" name="Stavka_Proizvod_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>3E7F2C15-6554-DE07-5E04-3651D291D615</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29C5C6BC-409D-4452-4271-87DD90EA61A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="417291EE-79D8-3018-8F39-614367E1B67C" name="Stavka_Ugovor_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>F631494F-1FB8-55CE-0887-6182792C1D13</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="943F4EA3-624B-EF7A-89A0-1337FE894017"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2CE9256-BB5F-4A7B-9BB9-60D4811F7A7A" name="nabavlja">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOMERCIJALISTA_ZAP_SIF" id="E5BBBF3E-D3E8-27FE-FC52-B3E6A987EBA3">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64DDE0F8-14E5-76C1-66D6-914A5427701E" referredColumn="2E1FB482-CE54-9F9F-DF3C-EBA46D291AE5"/>
+</associations>
+</Column>
+<Column name="KOMERCIJALISTA_KOM_MBR" id="271D0AEF-E04C-B996-7F31-149D2EAD1034">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64DDE0F8-14E5-76C1-66D6-914A5427701E" referredColumn="F426AECB-F699-D0E2-CED8-30B3BCE9D254"/>
+</associations>
+</Column>
+<Column name="Deo_DEO_SIF" id="24287406-1E0D-64D9-B461-67653D8C7EEC">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DEB3A96-D49D-3BF6-B926-F2F6130C98C6" referredColumn="7A45FE78-90AF-C8A7-B38A-1F040914EB34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE8BD430-3C71-623F-0243-EE410A6E2165" name="nabavlja_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5BBBF3E-D3E8-27FE-FC52-B3E6A987EBA3"/>
+<colUsage columnID="271D0AEF-E04C-B996-7F31-149D2EAD1034"/>
+<colUsage columnID="24287406-1E0D-64D9-B461-67653D8C7EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF6B89AC-2B7A-4270-2BBC-A977539711D1" name="nabavlja_KOMERCIJALISTA_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>5A1E4988-35F3-88C9-CBEB-04305EA4E1C0</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5BBBF3E-D3E8-27FE-FC52-B3E6A987EBA3"/>
+<colUsage columnID="271D0AEF-E04C-B996-7F31-149D2EAD1034"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="017CDEBA-2343-F897-2BF8-FEA9D1CAE967" name="nabavlja_Deo_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>5A1E4988-35F3-88C9-CBEB-04305EA4E1C0</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24287406-1E0D-64D9-B461-67653D8C7EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

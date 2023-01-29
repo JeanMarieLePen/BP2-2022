@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A827C94-713C-3AA1-D5D4-6A47652183D7" name="Deo">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:33:27 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DEO_SIF" id="12974271-DD23-0BF8-6E1B-5AF42D05389C">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:33:32 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEO_SER" id="F26DC990-68E0-1887-66E6-4CFE66B5AB6C">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:33:53 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEO_STR" id="ED07A99E-EAF1-07E7-D51B-B6434384FED4">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:34:07 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEO_DOM" id="43F77066-DAD9-76D0-7F8D-3179B578D7F2">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:34:23 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D63C583-58AC-315B-9EDA-EBA6F13583B4" name="Deo PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:33:46 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12974271-DD23-0BF8-6E1B-5AF42D05389C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

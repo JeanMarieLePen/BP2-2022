@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35D2398E-E431-1DEE-5357-B4170AB82BA3" containerWithKeyObject="6607E8B2-A823-E4FB-214C-2CB465A27A48" localFKIndex="4C54BCFB-194A-1BC4-1B71-B83AC7968C0A" name="RADNIK_Pogon_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>DBA8B2D5-10DF-05EE-5161-DDB826A0A509</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<referredTableLongName>Pogon</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7A444DFC-D1ED-A69B-73A3-7D07DD7D9D63</referredTableID>
+<keyObject>14C2CF72-AEDE-84AF-C68B-578296FDE4D7</keyObject>
+<referredKeyID>14C2CF72-AEDE-84AF-C68B-578296FDE4D7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PGN_SIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

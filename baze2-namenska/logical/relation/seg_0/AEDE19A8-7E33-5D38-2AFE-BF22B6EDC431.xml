@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="potpisuje" directorySegmentName="seg_0" id="AEDE19A8-7E33-5D38-2AFE-BF22B6EDC431">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 01:59:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<sourcePk>46BCD9E4-CED8-1DFE-152F-33A75C47F4B5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9257E1AF-57E0-E10D-5D60-79317D930323</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F88C9683-18CC-2597-00C9-7C6336B32EA3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

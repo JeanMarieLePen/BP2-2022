@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3ABD945F-1587-1997-D12B-368C45D52ACF" name="RADNIK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:08:07 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>C8B0A232-2B7F-25AA-19E6-5C48D11BACEB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ZAP_SIF" id="F7EAA21A-A83C-D6F8-4D2F-5C5F45698F4A">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:17:02 UTC</createdTime>
+<generatorID>25B6DB0C-6F49-7839-1D4A-B874EA89FADB</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3C001D63-ECD4-12F8-2ACF-D16C1EFF3810</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOM_MBR" id="B9EFEAB1-A5C2-693C-5DF3-1FF0926C5F8F">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:17:02 UTC</createdTime>
+<generatorID>25B6DB0C-6F49-7839-1D4A-B874EA89FADB</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>127D5C32-7A1C-2ABC-8188-56E1569E1F4B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RAD_SEF" id="3E3D1F1B-1132-5FBA-5639-48BA50438153">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 02:18:26 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PGN_SIF" id="995B6A36-07B1-3CC7-88A4-C7F929C147E1">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 17:16:14 UTC</createdTime>
+<generatorID>DBA8B2D5-10DF-05EE-5161-DDB826A0A509</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<referedAttribute>1C415C25-3956-C8C3-A653-B88A49A9B466</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

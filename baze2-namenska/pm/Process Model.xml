@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="1CB45987-7747-B4DD-2629-96D0F3B8459C">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-05 23:59:39 UTC</createdTime>
+<ownerDesignName>baze2-projekat-2023</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

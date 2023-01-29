@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE0E5B02-5203-F69D-9669-4D6A07A7A57A" containerWithKeyObject="7B10F01F-D32D-EC7D-B96F-B1D2CA48C2B6" localFKIndex="7BCFFA96-834B-E6E7-E186-58E9BB1B2CDE" name="Ugovor_ADM_RADNIK_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>2A8816B1-B8E2-DAE0-11B8-70AC5A28E44E</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<referredTableLongName>ADM_RADNIK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21A1EC7E-0309-3236-40ED-F3FD03454B35</referredTableID>
+<keyObject>C7193C97-9AF8-974C-FA97-775F29CD459F</keyObject>
+<referredKeyID>C7193C97-9AF8-974C-FA97-775F29CD459F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ZAP_SIF,KOM_MBR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

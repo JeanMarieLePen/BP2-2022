@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sklop" directorySegmentName="seg_0" id="B645340F-8084-2E82-389C-98ADE972F9C3">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-06 00:52:44 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<engineerTo>
+<item key="3D218646-7DC4-1C71-BCD7-B3830399934F" value="true"/>
+</engineerTo>
+<sourcePk>DA27DA99-8E94-304D-0796-49ADC63869F8</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>je u sklopu</nameOnSource>
+<nameOnTarget>je sklopljen od</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B4CC2F48-2D75-A819-95EB-8165681EA6CB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4CC2F48-2D75-A819-95EB-8165681EA6CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

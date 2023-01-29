@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="F2B5837F-B837-3EB3-9AF4-E3874A1085F1" name="FKArc_1">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>EB16370F-9133-615E-D732-A13CF0390B2F</table>
+<discriminatorColumn>72867E0C-3237-54AD-1A66-1EDC2963D107</discriminatorColumn>
+<fkeys>
+<fkeyID>304A163E-1B06-F36F-F547-90DCA2048D81</fkeyID>
+<fkeyID>9FBAC3A8-DA04-4C1A-A598-99572EE46124</fkeyID>
+<fkeyID>57E12E3D-574C-5E61-C4C9-C21E506A9CE0</fkeyID>
+<fkeyID>3239BE44-AB1A-A987-25F9-67867DD02E56</fkeyID>
+</fkeys>
+</FKArc>

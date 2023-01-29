@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14470CF2-CFDF-396F-E35E-BC198F189C88" containerWithKeyObject="DC147E63-FFE0-EA6F-3A08-DF7780B10030" localFKIndex="9A29DE52-8006-AA3A-410C-915150342357" name="cini_Razvojni_Tim_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>8545EE06-DD5D-AF8A-2B2A-DAA140DCAA78</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<referredTableLongName>Razvojni_Tim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6CDD7ADB-5B5D-8664-9B43-77A4B9B09A75</referredTableID>
+<keyObject>2937E29D-8FB2-D185-3491-9B992BD826AC</keyObject>
+<referredKeyID>2937E29D-8FB2-D185-3491-9B992BD826AC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TIM_SIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

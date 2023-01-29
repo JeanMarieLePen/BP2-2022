@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E798CEC-59AB-4E0E-0E22-8258D533CA60" containerWithKeyObject="3419DFB8-E24F-E5C6-6C4B-1522B5CD7088" localFKIndex="417291EE-79D8-3018-8F39-614367E1B67C" name="Stavka_Ugovor_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>F631494F-1FB8-55CE-0887-6182792C1D13</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<referredTableLongName>Ugovor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B10F01F-D32D-EC7D-B96F-B1D2CA48C2B6</referredTableID>
+<keyObject>944BD345-7389-DE2A-43B9-5825F7C3240D</keyObject>
+<referredKeyID>944BD345-7389-DE2A-43B9-5825F7C3240D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UGV_SIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

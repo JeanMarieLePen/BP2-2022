@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1DEB3A96-D49D-3BF6-B926-F2F6130C98C6" containerWithKeyObject="A2CE9256-BB5F-4A7B-9BB9-60D4811F7A7A" localFKIndex="017CDEBA-2343-F897-2BF8-FEA9D1CAE967" name="nabavlja_Deo_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>5A1E4988-35F3-88C9-CBEB-04305EA4E1C0</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<referredTableLongName>Deo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D9E12AB3-907E-59EA-6A26-EAB2ADFF1D44</referredTableID>
+<keyObject>AFE6AA28-E59D-B5CF-7654-498A6EBC6EEA</keyObject>
+<referredKeyID>AFE6AA28-E59D-B5CF-7654-498A6EBC6EEA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DEO_SIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

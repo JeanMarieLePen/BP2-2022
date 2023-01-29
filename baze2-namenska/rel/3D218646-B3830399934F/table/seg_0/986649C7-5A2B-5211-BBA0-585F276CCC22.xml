@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="986649C7-5A2B-5211-BBA0-585F276CCC22" name="PROJEKTANT">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>1B5A879A-BFCA-74A2-E274-BF3143F1B442</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZAP_SIF" id="FBDA4B63-2BC5-549C-2D9D-989C4708E345">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>3C001D63-ECD4-12F8-2ACF-D16C1EFF3810</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3239BE44-AB1A-A987-25F9-67867DD02E56" referredColumn="1E182B8B-E7C8-D672-530D-479F3AA39AEF"/>
+</associations>
+</Column>
+<Column name="ZAP_IME" id="E4D67CDF-DB17-FE32-4A62-A611521A51A3">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>661DEB7A-1BF7-AE13-F32A-BEB8F8ADAC79</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAP_PRZ" id="63316F26-0A44-AD3B-B2F5-58AE6CD6083A">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>0813B02C-CE65-D43E-FAA1-7537CE261810</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAP_ADR" id="A4765907-64DB-E9B3-63BA-AE2BF9B7E2AA">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>3C7DA127-B46B-869B-93B7-C6C73E28D2CB</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAP_ULG" id="27CB435B-0ABA-16FA-F674-8B7E35662261">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>BD073F8C-5811-B7AF-4069-D8855399F49C</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOM_MBR" id="9C141492-CCB0-0E5E-9C58-979032A00841">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>127D5C32-7A1C-2ABC-8188-56E1569E1F4B</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3239BE44-AB1A-A987-25F9-67867DD02E56" referredColumn="896F38EC-5E3B-2E8D-6B2C-C80C4B25F69D"/>
+</associations>
+</Column>
+<Column name="PRJ_SEF" id="A6E62AE7-F035-0650-8420-29F02CE826D5">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>C8768CE1-FB62-7F85-C0F2-BE9A7038662B</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FD890BF-5B84-DC28-64F1-2A07B62B291A" name="PROJEKTANT_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>3EC0EEDD-F8A6-4837-F5F8-4AB4CDE29099</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBDA4B63-2BC5-549C-2D9D-989C4708E345"/>
+<colUsage columnID="9C141492-CCB0-0E5E-9C58-979032A00841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB511E71-FD18-EA35-BA17-D17242F8696B" name="PROJEKTANT_Zaposleni_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>98AD9F4A-1702-2054-C4CD-1AAFF76FD499</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBDA4B63-2BC5-549C-2D9D-989C4708E345"/>
+<colUsage columnID="9C141492-CCB0-0E5E-9C58-979032A00841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

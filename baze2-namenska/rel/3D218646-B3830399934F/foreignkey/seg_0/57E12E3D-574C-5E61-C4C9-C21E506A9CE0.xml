@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57E12E3D-574C-5E61-C4C9-C21E506A9CE0" containerWithKeyObject="6607E8B2-A823-E4FB-214C-2CB465A27A48" localFKIndex="D045DC4C-7C3F-5EF5-4D48-AA929A9365D9" name="RADNIK_Zaposleni_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>8C4F8F1D-3950-83FE-4938-2CD0F8B8604F</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<referredTableLongName>Zaposleni</referredTableLongName>
+<arc>F2B5837F-B837-3EB3-9AF4-E3874A1085F1</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB16370F-9133-615E-D732-A13CF0390B2F</referredTableID>
+<keyObject>4F946C0C-C1D1-409A-2FD6-72FEAAC53084</keyObject>
+<referredKeyID>4F946C0C-C1D1-409A-2FD6-72FEAAC53084</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ZAP_SIF,Kompanija_KOM_MBR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>RADNIK</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

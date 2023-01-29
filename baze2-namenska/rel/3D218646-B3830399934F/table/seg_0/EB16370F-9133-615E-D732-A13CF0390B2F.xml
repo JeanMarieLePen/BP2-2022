@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB16370F-9133-615E-D732-A13CF0390B2F" name="Zaposleni">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>C8B0A232-2B7F-25AA-19E6-5C48D11BACEB</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZAP_SIF" id="1E182B8B-E7C8-D672-530D-479F3AA39AEF">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>3C001D63-ECD4-12F8-2ACF-D16C1EFF3810</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAP_IME" id="4AE0FCA1-875D-F872-ACB4-EBA354CEF2D6">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>661DEB7A-1BF7-AE13-F32A-BEB8F8ADAC79</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAP_PRZ" id="526CCEF1-BD84-536C-8710-321F5BB6AC06">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>0813B02C-CE65-D43E-FAA1-7537CE261810</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAP_ADR" id="7DEB5CEB-BAB6-E349-3931-175CFDE9D7B0">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>3C7DA127-B46B-869B-93B7-C6C73E28D2CB</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAP_ULG" id="72867E0C-3237-54AD-1A66-1EDC2963D107">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>BD073F8C-5811-B7AF-4069-D8855399F49C</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<constraintName>CH_INH_Zaposleni</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<listOfValues>
+<valueDef value="ADM_RADNIK" description="entity ADM_RADNIK"/>
+<valueDef value="KOMERCIJALISTA" description="entity KOMERCIJALISTA"/>
+<valueDef value="PROJEKTANT" description="entity PROJEKTANT"/>
+<valueDef value="RADNIK" description="entity RADNIK"/>
+</listOfValues>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="Kompanija_KOM_MBR" id="896F38EC-5E3B-2E8D-6B2C-C80C4B25F69D">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>127D5C32-7A1C-2ABC-8188-56E1569E1F4B</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C811DBC9-562F-FA5B-93D1-683E043D9630" referredColumn="6FE91BE8-DE7F-098B-7FC9-79755A5DC858"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F946C0C-C1D1-409A-2FD6-72FEAAC53084" name="Zaposleni_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>3EC0EEDD-F8A6-4837-F5F8-4AB4CDE29099</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E182B8B-E7C8-D672-530D-479F3AA39AEF"/>
+<colUsage columnID="896F38EC-5E3B-2E8D-6B2C-C80C4B25F69D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59E3CCA4-0B41-1E39-340F-E40BADC15845" name="Zaposleni_Kompanija_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>5A20DF34-1190-D381-4A40-6D272F8E1E06</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="896F38EC-5E3B-2E8D-6B2C-C80C4B25F69D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

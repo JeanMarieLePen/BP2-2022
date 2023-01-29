@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="482E0F71-71DF-D513-52EF-D0EFAD11793E" name="kreira">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Razvojni_Tim_TIM_SIF" id="5E09703B-870B-01F6-16E8-AC56C06918E2">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B910BEA6-26DE-17BF-2E36-727028561689" referredColumn="8584BAB6-3AED-2C84-B33C-9003992C66DB"/>
+</associations>
+</Column>
+<Column name="Projekat_PRJ_SIF" id="2D97448C-6781-E043-F708-9BD56C2FD8E4">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B0B645F-D92C-AB39-A056-B29FF3896DA2" referredColumn="6D61FF40-9E51-17E4-C19D-92D8BEA5BF30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66C8541B-2FE9-126B-59D3-BFDEB3CF31B8" name="kreira_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E09703B-870B-01F6-16E8-AC56C06918E2"/>
+<colUsage columnID="2D97448C-6781-E043-F708-9BD56C2FD8E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C95AB549-CE40-A4E1-73E2-F0E9F05BDF42" name="kreira_Razvojni_Tim_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>0CE1C257-AE3E-3EDA-AC6B-9A79F5F83ACD</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E09703B-870B-01F6-16E8-AC56C06918E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE3A5BBB-6D4D-4D9A-132C-D21C8722F2D7" name="kreira_Projekat_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>0CE1C257-AE3E-3EDA-AC6B-9A79F5F83ACD</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D97448C-6781-E043-F708-9BD56C2FD8E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

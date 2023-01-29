@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFB7D950-E192-169E-150A-113482446BF8" name="ugradjivanje">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Deo_DEO_SIF" id="E4D02323-D5CD-6788-02EB-7C7BF188D6E4">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0585C30-B6C5-7287-6539-BBF8B04935A2" referredColumn="7A45FE78-90AF-C8A7-B38A-1F040914EB34"/>
+</associations>
+</Column>
+<Column name="Proizvod_PRZ_SIF" id="E83AE161-D766-520E-D042-CA60E9B94C59">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE86CF40-3405-E8A2-1680-1FB451BCE787" referredColumn="8DA171DB-FB73-7EA2-F3E0-8211E2523768"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A371F9C6-4258-4FAE-A8A5-7037B6B398BE" name="ugradjivanje_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4D02323-D5CD-6788-02EB-7C7BF188D6E4"/>
+<colUsage columnID="E83AE161-D766-520E-D042-CA60E9B94C59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC23C2A1-7755-E831-62B2-C4272449DFBF" name="ugradjivanje_Deo_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>D081E6BE-E943-5C5F-7281-B0143B010BC6</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4D02323-D5CD-6788-02EB-7C7BF188D6E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62E2E1E3-D397-B8AA-58B3-62AC12781BEE" name="ugradjivanje_Proizvod_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>D081E6BE-E943-5C5F-7281-B0143B010BC6</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E83AE161-D766-520E-D042-CA60E9B94C59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

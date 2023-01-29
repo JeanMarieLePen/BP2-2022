@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD727DA7-FF17-7170-8D6F-22B557DBEF09" name="narucuje">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Izlaze_PRZ_SIF" id="3A1179D5-C39A-A70A-DFEC-FC2746D7E6D6">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58861655-D5D8-BBF6-6DC0-6F72276E6F0F" referredColumn="B8D646A4-7AC7-199E-0D72-96FF07FA1686"/>
+</associations>
+</Column>
+<Column name="Izlaze_PRE_SIF" id="FC39F109-BE10-26DB-BEF8-FBCE84DCFB44">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58861655-D5D8-BBF6-6DC0-6F72276E6F0F" referredColumn="1F79A03D-1246-61B4-952B-31E61D9A9E40"/>
+</associations>
+</Column>
+<Column name="Kupac_KUP_MBR" id="85659EC3-D2DA-BF57-B1A3-57319EF83AAC">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7DA63C9-C451-84BA-5398-903A3FBA4BC1" referredColumn="44BC432D-9373-22A6-39C7-B35CE879C27F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F12F4B3-E8CA-3D31-0366-151EB37572AC" name="narucuje_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A1179D5-C39A-A70A-DFEC-FC2746D7E6D6"/>
+<colUsage columnID="FC39F109-BE10-26DB-BEF8-FBCE84DCFB44"/>
+<colUsage columnID="85659EC3-D2DA-BF57-B1A3-57319EF83AAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33AB6506-2FB8-234E-F152-4F2178C1611A" name="narucuje_Izlaze_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>2573F84D-1266-E8D2-4E1E-359A5990B45F</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A1179D5-C39A-A70A-DFEC-FC2746D7E6D6"/>
+<colUsage columnID="FC39F109-BE10-26DB-BEF8-FBCE84DCFB44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58E3C504-262C-6AC4-C336-4EF5431810C6" name="narucuje_Kupac_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>2573F84D-1266-E8D2-4E1E-359A5990B45F</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85659EC3-D2DA-BF57-B1A3-57319EF83AAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

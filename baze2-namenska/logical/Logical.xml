@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="844BDC7C-812C-C9DF-3C6D-76BD7886678F" mainViewID="AE89713A-987D-94E7-6FA9-80A0DE52DD3A">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-05 23:59:39 UTC</createdTime>
+<ownerDesignName>baze2-projekat-2023</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

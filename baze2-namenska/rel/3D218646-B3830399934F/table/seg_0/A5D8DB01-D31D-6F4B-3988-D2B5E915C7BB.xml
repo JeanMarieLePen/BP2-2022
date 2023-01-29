@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5D8DB01-D31D-6F4B-3988-D2B5E915C7BB" name="Izlaze">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>63BDC1F4-7105-2033-D2DD-CA76B6B4087D</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Proizvod_PRZ_SIF" id="B8D646A4-7AC7-199E-0D72-96FF07FA1686">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>2C17473A-87B0-E45B-9BDD-D77AFD469DF7</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A83F91D3-E709-BCF1-0D39-4F1A864F13C4" referredColumn="8DA171DB-FB73-7EA2-F3E0-8211E2523768"/>
+</associations>
+</Column>
+<Column name="Predstavnistvo_PRE_SIF" id="1F79A03D-1246-61B4-952B-31E61D9A9E40">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>98205B97-0263-AD0B-C54D-F8D8BF96D7DE</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD7EAA92-B40D-BCFC-6651-23E9E3B162CC" referredColumn="A2876DC3-E2C9-E29B-7003-0BECFB0877B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="229711AF-2DED-8540-6239-10F7097FBA7F" name="Izlaze_PK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>63163DF9-52EA-339D-9A2E-6F25D705B4A6</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D646A4-7AC7-199E-0D72-96FF07FA1686"/>
+<colUsage columnID="1F79A03D-1246-61B4-952B-31E61D9A9E40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8525E236-0BF7-AAE5-CD50-CAE7BD11E216" name="Izlaze_Predstavnistvo_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>94775B2E-FA70-1072-28D0-5F8EAAD82E22</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F79A03D-1246-61B4-952B-31E61D9A9E40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="898775E8-12B9-D8FA-9901-1BFFF4F66039" name="Izlaze_Proizvod_FK">
+<createdBy>SNSBOT</createdBy>
+<createdTime>2023-01-23 07:15:56 UTC</createdTime>
+<generatorID>9EBD86A8-67E7-86B2-CF5D-EF362B65EA7C</generatorID>
+<ownerDesignName>baze2-namenska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D646A4-7AC7-199E-0D72-96FF07FA1686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
