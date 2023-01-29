@@ -1,0 +1,13 @@
+1) U SQL PLUS-u:   '/' as sysdba
+2) create user c##tmpuser identified by tmpuser;
+   grant unlimited tablespace to c##tmpuser;
+   grant resource, connect, dba to c##tmpuser;
+
+3) U SQLDEVELOPER-u: 
+	New Connection -> name:temp
+			username:c##tmpuser
+			password:tmpuser
+			SID: orcl
+
+	->Test
+	->Ako prodje: Save i Connect
